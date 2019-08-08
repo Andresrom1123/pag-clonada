@@ -1,0 +1,128 @@
+.message, .succes, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.succes {
+  border-color: green;
+  color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+header {
+  top: 10%;
+  width: 100%;
+}
+
+#home-jumbotron {
+  background-image: url("https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.48);
+}
+
+.jumbotron-description {
+  z-index: 9;
+}
+
+.jumbotron-description h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.custom-button {
+  padding: 1rem 3rem !important;
+  border: solid 2px !important;
+}
+
+.custom-button.light {
+  color: white;
+  border-color: white;
+}
+
+.custom-button.dark {
+  color: black;
+  border-color: black;
+  margin: 1rem auto 4rem auto;
+}
+
+#home-intro {
+  margin-top: -40px;
+  position: relative;
+}
+
+.salmon-gradient {
+  padding: 5rem 9rem 10rem 6rem;
+  background: -webkit-gradient(linear, left top, right top, from(salmon), to(#E91E63));
+  background: linear-gradient(to right, salmon, #E91E63);
+}
+
+.text-size {
+  font-size: 3rem;
+}
+
+.text-size- {
+  font-size: 2.4rem;
+}
+
+.text-size-two {
+  font-size: 1.4rem;
+}
+
+.text-size-three {
+  font-size: 1.1rem;
+}
+
+.text-size-four {
+  font-size: .9rem;
+}
+
+.weight {
+  font-weight: 700;
+}
+
+.img-container {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.h-1 {
+  width: 1px;
+  height: 80px;
+}
+
+.img-test-big {
+  width: 100px;
+  height: 100px;
+  margin-top: -15px;
+  overflow: hidden;
+}
+
+.img-test {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+/*# sourceMappingURL=styles.css.map */
