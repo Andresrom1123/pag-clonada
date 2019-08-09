@@ -1,2 +1,149 @@
-html
-    background: blue
+@import '_media-queries'
+
+body
+    font-family: 'Montserrat', sans-serif
+
+header
+    top: 10%
+    width: 100%
+
+#home-jumbotron
+    background-image: url('https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+
+.navbar-brand
+    font-size: 3.5rem
+
+.navbar-test
+    padding: 2rem !important
+
+.navbar-brand
+    img
+        margin-left: 5rem
+
+.nav-item
+    padding: 1rem
+    .nav-link
+        color: white !important
+        font-size: 1.5rem
+        font-weight: 800
+
+.btn:hover
+    text-decoration: none
+
+
+.form-control
+    font-size: 1.5rem
+
+.overlay
+    top: 0
+    bottom: 0
+    right: 0
+    left: 0
+    background: rgba(0, 0, 0, 0.25)
+
+.jumbotron-description
+    z-index: 9
+    h1
+        font-size: 6rem
+        font-weight: 700
+
+.custome-button
+    padding: 1rem 3rem !important
+    border: solid 2px
+    font-size: 2rem !important
+    &.light
+        color: white
+        border-color: white
+    &.dark
+        color: #242424
+        border-color: #242424
+
+.navbar-test
+    padding: 2rem !important
+
+.tim-card
+    display: block
+    justify-content: center
+    align-items: center
+    background: radial-gradient(circle at 1.98% 13.04%, #FF512F, transparent 100%), radial-gradient(circle at 98.02% 28.95%, #DD2476, transparent 100%), radial-gradient(circle at 50% 50%, #ffffff, #ffffff 100%)
+    padding: 5rem
+    h3
+        margin-top: 1rem
+        color: rgba(255, 255, 255, 0.69)
+        font-weight: 700
+        font-size: 1.5rem
+    p
+        margin-top: 1rem
+        font-weight: 700
+        font-size: 2rem
+        color: white
+
+.tim-card-2
+    display: block
+    justify-content: center
+    align-items: center
+    padding: 5rem
+    h3
+        margin-top: 1rem
+        color: #aaaaaa
+        font-weight: 700
+        font-size: 1.5rem
+    p
+        margin-top: 1rem
+        font-weight: 700
+        font-size: 2rem
+        color: black
+
+.img-map
+    width: 100%
+
+.text-center
+    .col-md-6
+        padding: 0
+
+#text-area
+    resize: none !important
+
+.form-control
+    padding: 35px !important
+    font-size: 1.15rem !important
+
+//FOOTER SECTION SASS
+.footer-part-1
+    color: white
+    background: #191919
+    .row
+        margin-top: 10rem
+        margin-bottom: 20rem
+
+.footer-part-2
+    background: #141414
+    color: white
+    .row
+        text-align: right
+        margin-top: 10rem
+        margin-bottom: 20rem
+
+.col-md-3
+    i
+        font-size: 32px
+
+//Utilities
+.mt-10
+    margin-top: 10rem
+
+.mt-20
+    margin-top: 20rem
+
+
+@include xlg
+    .custome-container
+        max-width: 75%
+    .custome-container-2
+        max-width: 90%
+    .contact-form
+        max-width: 60%
